@@ -1,16 +1,12 @@
 package sortingAlgorithm;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class BubbleSort {
     public static void main(String[] args) {
         int nums[] = new int[10000];
         for (int i = 1000; i >0 ; i--) {
             nums[1000-i]=i;
         }
-        BubbleSort(nums);
-//        System.out.println( "Arrays.toString(BubbleSort(nums))");
+        System.out.println( "Arrays.toString(BubbleSort(nums))");
     }
 
     public static int[] BubbleSort(int[] nums) {
@@ -25,9 +21,9 @@ public class BubbleSort {
                     nums[j] = num;
                 }
             }
-//            if(swap==0){
-//                break;
-//            }
+            if(swap==0){
+                break;
+            }
         }
         long endTime=System.currentTimeMillis();
         System.out.println("运行时间"+(endTime-startTime));
