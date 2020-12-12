@@ -25,7 +25,19 @@ class ChangeNumber {
 
 public class VolatileDemo {
     public static void main(String[] args) {
+        ChangeNumber changeNumber = new ChangeNumber();
+        for (int j = 0; j < 20; j++) {
+            new Thread(() -> {
+                for (int i = 0; i < 100; i++) {
+                    changeNumber.atomicAddChange();
+                }
+            }, String.valueOf(j)).start();
+        }
 
+        while (Thread.activeCount()>2){
+            Thread.yield();
+        }
+        System.out.println(changeNumber.atomicInteger);
     }
 
     public void atomicNoVolatile() {
