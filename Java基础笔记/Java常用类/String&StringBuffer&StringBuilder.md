@@ -3,7 +3,7 @@ https://zhuanlan.zhihu.com/p/40315521
 
 String & StringBuffer & StringBuilder 在面试中是一个经常被问的知识点，要想捕获面试官的芳心，不能停留在了解用法，还需要为他讲解你知道的底层。
 
----
+---~~~~
 
  ### 面试中面试官常常会问我们，你能讲一下String StringBuffer 和 StringBuilder 的区别是什么? 
  常见的面试回答为：
