@@ -25,10 +25,6 @@ Innodb引擎的特点
 海量数据top100问题
 前缀树了解吗？说一下结构？
 如果要添加到前缀树里的元素比较多，内存放不下怎么办？(说了用B+树类似的结构)
-作者：人菜就要多学习
-链接：https://www.nowcoder.com/discuss/532896?type=2&order=0&pos=6&page=3&channel=-1&source_id=discuss_tag_nctrack
-来源：牛客网
-
 数据库事务隔离级别，分别产生什么问题？
 
 10.Innodb默认在哪个级别？如何保证事务的？

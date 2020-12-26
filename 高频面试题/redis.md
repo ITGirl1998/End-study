@@ -23,9 +23,6 @@ Redis list 底层是什么数据结构？
 怎么保证redis和数据库一致性
 说一下进程通信机制
 redis持久化机制
-作者：人菜就要多学习
-链接：https://www.nowcoder.com/discuss/532896?type=2&order=0&pos=6&page=3&channel=-1&source_id=discuss_tag_nctrack
-来源：牛客网
 
 4.redis用来干嘛？
 
