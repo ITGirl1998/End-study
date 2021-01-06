@@ -1,6 +1,0 @@
-3.synchronized可以作用在哪些位置
-18.synchronized和lock区别原理
-synchronized原理，作用在哪？
-1.synchronized和lock区别
-16.说说synchronized锁升级的过程
-4.syn和lock是乐观还是悲观
